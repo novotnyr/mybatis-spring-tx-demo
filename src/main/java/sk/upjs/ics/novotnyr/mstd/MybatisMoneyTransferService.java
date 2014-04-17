@@ -2,10 +2,12 @@ package sk.upjs.ics.novotnyr.mstd;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import sk.upjs.ics.novotnyr.mstd.mybatis.mappers.MoneyTransferDao;
 
 @Service
+@Transactional
 public class MybatisMoneyTransferService implements MoneyTransferService {
 	@Autowired
 	private MoneyTransferDao moneyTransferDao;
