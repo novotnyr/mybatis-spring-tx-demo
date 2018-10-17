@@ -1,6 +1,6 @@
 About
 =====
-This is a demo of MyBatis + Spring 4.0.x + Transactional behaviour with @Transactional annotations.
+This is a demo of MyBatis + Spring 5.x + Transactional behaviour with @Transactional annotations.
 
 Run
 ===
